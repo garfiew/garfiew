@@ -1,0 +1,268 @@
+/* Marketing Mentor — Shared Stylesheet */
+:root {
+  --color-bg: #fafaf8;
+  --color-surface: #ffffff;
+  --color-border: #e8e4df;
+  --color-text: #1a1714;
+  --color-muted: #6b6560;
+  --color-accent: oklch(55% 0.18 25);
+  --color-accent-light: oklch(95% 0.06 25);
+  --color-accent-dark: oklch(38% 0.18 25);
+  --color-success: oklch(50% 0.15 145);
+  --color-success-light: oklch(95% 0.05 145);
+  --color-warning: oklch(65% 0.18 65);
+  --color-warning-light: oklch(97% 0.04 65);
+
+  --font-display: 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Helvetica Neue', 'Arial', sans-serif;
+  --font-mono: 'Courier New', monospace;
+
+  --space-xs: 0.375rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --max-width: 720px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.65;
+  padding: var(--space-lg);
+}
+
+.lesson-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Header */
+.lesson-header {
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+.lesson-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+.lesson-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: normal;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+.lesson-subtitle {
+  margin-top: var(--space-sm);
+  color: var(--color-muted);
+  font-size: 1rem;
+}
+
+/* Sections */
+h2 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: var(--space-xl) 0 var(--space-md);
+  color: var(--color-text);
+}
+h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin: var(--space-lg) 0 var(--space-sm);
+}
+p { margin-bottom: var(--space-md); }
+
+/* Cards */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+.card-accent {
+  border-left: 4px solid var(--color-accent);
+  background: var(--color-accent-light);
+}
+.card-success {
+  border-left: 4px solid var(--color-success);
+  background: var(--color-success-light);
+}
+.card-warning {
+  border-left: 4px solid var(--color-warning);
+  background: var(--color-warning-light);
+}
+
+/* Framework boxes */
+.framework {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin: var(--space-lg) 0;
+}
+.framework-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: var(--space-md);
+}
+.framework-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-md);
+}
+.framework-item {
+  padding: var(--space-md);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+.framework-item-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-xs);
+}
+.framework-item-value {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+/* Quiz */
+.quiz {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+.quiz-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: var(--space-lg);
+}
+.quiz-question {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-md);
+}
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-size: 0.95rem;
+  background: var(--color-bg);
+  user-select: none;
+}
+.quiz-option:hover { border-color: var(--color-accent); }
+.quiz-option.correct { border-color: var(--color-success); background: var(--color-success-light); }
+.quiz-option.wrong { border-color: #e05555; background: #fff5f5; }
+.quiz-option input[type=radio] { accent-color: var(--color-accent); }
+.quiz-feedback {
+  font-size: 0.9rem;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  display: none;
+  margin-top: var(--space-sm);
+}
+.quiz-feedback.show { display: block; }
+.quiz-feedback.correct { background: var(--color-success-light); color: var(--color-success); }
+.quiz-feedback.wrong { background: #fff5f5; color: #c0392b; }
+.quiz-btn {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.quiz-btn:hover { background: var(--color-accent-dark); }
+.quiz-score {
+  margin-top: var(--space-md);
+  font-weight: 700;
+  color: var(--color-accent);
+  display: none;
+}
+
+/* Nav */
+.lesson-nav {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+/* Ask teacher */
+.ask-teacher {
+  background: var(--color-accent-light);
+  border: 1px dashed var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+  color: var(--color-accent-dark);
+}
+
+/* Tag */
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--color-accent-light);
+  color: var(--color-accent-dark);
+  margin-right: var(--space-xs);
+}
+
+@media (max-width: 600px) {
+  body { padding: var(--space-md); }
+  .framework-grid { grid-template-columns: 1fr; }
+}

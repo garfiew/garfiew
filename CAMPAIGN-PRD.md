@@ -78,21 +78,36 @@ The audience is tired of performing beauty. They want to feel like themselves �
 
 ### 3. Budget Allocation (50,000 THB)
 
-| Channel | Amount (THB) | % | Objective |
-|---------|-------------|---|-----------|
-| Meta Paid Ads | 27,500 | 55% | Conversion (Shopee/Lazada/Meta Shop) + Retargeting |
-| TikTok Paid Ads | 12,500 | 25% | Awareness + Reach (In-Feed Ads) |
-| Content Production | 8,000 | 16% | Video shooting, editing, photo assets |
-| Creative Reserve | 2,000 | 4% | Boosting high-performing organic posts mid-month |
+> **How to read this:** Every percentage tells the client what portion of their money is working toward each goal. 80% goes directly to media (paid reach and conversion). 20% goes to making the content worth running.
 
-**Meta sub-allocation (27,500 THB):**
-- Traffic/Conversion campaigns → Shopee + Lazada links: 16,500 THB
-- Meta Shop catalog ads: 7,000 THB
-- Retargeting (video viewers + profile visitors): 4,000 THB
+| Channel | Amount (THB) | % of Total | What the Client Gets |
+|---------|-------------|-----------|----------------------|
+| Meta Paid Ads | 27,500 | **55%** | Conversion campaigns driving to Meta Shop, Shopee, Lazada + retargeting warm audiences |
+| TikTok Paid Ads | 12,500 | **25%** | Awareness reach to cold audiences via In-Feed Ads + Spark Ads boosting organic winners |
+| Content Production | 8,000 | **16%** | Video shooting, editing, photography — the assets that run across both platforms |
+| Creative Reserve | 2,000 | **4%** | Held for mid-month boosting of whichever organic post outperforms — deployed on data, not guesswork |
+| **Total** | **50,000** | **100%** | |
 
-**TikTok sub-allocation (12,500 THB):**
-- In-Feed Ads (awareness): 9,000 THB
-- Spark Ads (boost organic posts): 3,500 THB
+**Why this split?**
+- **80% to media** (Meta + TikTok paid) — because without reach, even perfect content doesn't sell. Paid ads guarantee the content reaches the right audience at the right stage.
+- **55% Meta / 25% TikTok** — Meta carries the conversion weight because it connects directly to Meta Shop and has stronger retargeting tools. TikTok earns its 25% through low-cost awareness reach — a THB spent on TikTok awareness goes further than on Meta.
+- **16% production** — a lean but sufficient budget for 4 weeks of content when the team shoots efficiently and repurposes across platforms.
+- **4% reserve held back** — the worst use of budget is boosting content before you know what works. Week 2 data tells you which post to bet on.
+
+**Meta sub-allocation (27,500 THB / 55%)**
+
+| Objective | Amount (THB) | % of Meta Budget | Why |
+|-----------|-------------|-----------------|-----|
+| Traffic → Shopee + Lazada | 16,500 | 60% | Highest-intent conversion path; direct to purchase |
+| Meta Shop catalog ads | 7,000 | 25% | Lowest-friction checkout; keep Meta Shop warm |
+| Retargeting (video viewers, profile visitors) | 4,000 | 15% | Cheapest conversions come from warm audiences |
+
+**TikTok sub-allocation (12,500 THB / 25%)**
+
+| Objective | Amount (THB) | % of TikTok Budget | Why |
+|-----------|-------------|-------------------|-----|
+| In-Feed Awareness Ads | 9,000 | 72% | Cold audience reach at the lowest CPM in the plan |
+| Spark Ads (boost organic) | 3,500 | 28% | Amplify organic posts that already have proof of engagement |
 
 ### 4. Content Calendar — 4-Week Structure
 
